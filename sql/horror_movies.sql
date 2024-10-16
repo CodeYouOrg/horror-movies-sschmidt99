@@ -1,8 +1,8 @@
 
 
-SELECT id AS MOVIE_ID, name AS MOVIE_TITLE, imdb_rating AS Rating
+SELECT id AS Movie_ID, name AS Movie_Title, imdb_rating AS Rating
 FROM movies
-WHERE genre = 'Horror' 
+WHERE genre = 'horror' 
 AND year <= 1985
 ORDER BY rating DESC
 LIMIT 3;
